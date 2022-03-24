@@ -22,6 +22,9 @@
 		334CB76A27EA444E0001285D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CB76927EA444E0001285D /* FeedCell.swift */; };
 		334CB76C27EA454D0001285D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CB76B27EA454D0001285D /* Extensions.swift */; };
 		334CB76E27EA462B0001285D /* Extensions1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CB76D27EA462B0001285D /* Extensions1.swift */; };
+		334CB77127EB788F0001285D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CB77027EB788F0001285D /* LoginController.swift */; };
+		334CB77327EB78A20001285D /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CB77227EB78A20001285D /* RegistrationController.swift */; };
+		334CB77527EB83140001285D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CB77427EB83140001285D /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		334CB76927EA444E0001285D /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		334CB76B27EA454D0001285D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		334CB76D27EA462B0001285D /* Extensions1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions1.swift; path = ../../../../../../Downloads/Extensions1.swift; sourceTree = "<group>"; };
+		334CB77027EB788F0001285D /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		334CB77227EB78A20001285D /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		334CB77427EB83140001285D /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,7 @@
 		334CB75927E76CEF0001285D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				334CB76F27EB78780001285D /* Authentication */,
 				334CB75D27E76DA00001285D /* MainTabController.swift */,
 				334CB75F27E76FB60001285D /* FeedController.swift */,
 				334CB76127E76FD90001285D /* SearchController.swift */,
@@ -131,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				334CB76927EA444E0001285D /* FeedCell.swift */,
+				334CB77427EB83140001285D /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -140,6 +148,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		334CB76F27EB78780001285D /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				334CB77027EB788F0001285D /* LoginController.swift */,
+				334CB77227EB78A20001285D /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,9 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334CB77327EB78A20001285D /* RegistrationController.swift in Sources */,
 				334CB74427E76C8A0001285D /* ViewController.swift in Sources */,
 				334CB76A27EA444E0001285D /* FeedCell.swift in Sources */,
 				334CB76427E76FF40001285D /* ImageSelectorController.swift in Sources */,
+				334CB77127EB788F0001285D /* LoginController.swift in Sources */,
 				334CB76627E770070001285D /* NotificationController.swift in Sources */,
 				334CB76227E76FD90001285D /* SearchController.swift in Sources */,
 				334CB74027E76C8A0001285D /* AppDelegate.swift in Sources */,
@@ -225,6 +244,7 @@
 				334CB75E27E76DA10001285D /* MainTabController.swift in Sources */,
 				334CB76C27EA454D0001285D /* Extensions.swift in Sources */,
 				334CB74227E76C8A0001285D /* SceneDelegate.swift in Sources */,
+				334CB77527EB83140001285D /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
